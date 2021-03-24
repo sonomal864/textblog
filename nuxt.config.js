@@ -54,6 +54,8 @@ export default {
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+  
+    '@nuxtjs/markdownit',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -64,6 +66,10 @@ export default {
     manifest: {
       lang: 'en'
     }
+  },
+  markdownit: {
+    injected: true,   // 「$md」でどこからでも使えるようにする
+    breaks: true      // 改行を<br/>に変換する
   },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
