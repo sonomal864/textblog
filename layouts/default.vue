@@ -110,7 +110,7 @@ export default {
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'memberscareer-mc00197-output'
+      title: 'memberscareer-shin-output'
     }
   }
 }
